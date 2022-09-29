@@ -4,6 +4,11 @@ body {
     background: #F5F5F5;
     font-weight: 400;
 }
+/* 
+ #F5F5F5 - bgc;
+ #2196F3 - btn;
+
+*/
 .link {
     text-decoration: none;
 
@@ -16,7 +21,7 @@ body {
     background: #FFFFFF;
 }
 
-.header-nav {}
+
 .logo-type-one{
     color: #2196F3;
 
@@ -94,14 +99,83 @@ background: #2F303A;
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
-
-        
+        background: #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;    
 }
 .hero-button:hover,
 .hero-button:focus {
-    background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+cursor: pointer;
+
+}
+
+/* ------------ FEATURE------------*/
+
+.feature-title {
+    display: none;
+}
+
+.feature-item-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;color: #212121;
+}
+
+.featute-text {
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* ------------WORK------------- */
+
+.work-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+/* -------------TEAM--------------- */
+.team { 
+    background: #F5F4FA;
+}
+
+.team-title { 
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.team-item {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+.team-item-title { 
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1,18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.team-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,8;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 
 /*  -------FOOTER---------- */
@@ -124,11 +198,6 @@ background: #2F303A;
     color: #2196F3;
 }
 
-.footer-adress {
-   
-}
-
-.footer-list {}
 
 .footer-item { 
     font-style: normal;}
