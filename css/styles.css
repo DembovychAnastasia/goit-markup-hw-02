@@ -21,14 +21,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     background: var(--primary-background-color);
-    font-weight: 400;
+    font-size: 14px;
+    color: var(--second-text-color);
 }
 
 .link {
     text-decoration: none;
-
 }
 .list {
     list-style: none;
@@ -45,7 +44,6 @@ body {
 .logo-type {
 
      font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -58,24 +56,19 @@ body {
 
 }
 .header-link {
-        font-family:inherit;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 1. 14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--second-text-color);
-
 }
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-text-color);
     }
 
-
 .header-mail-link {
-        font-family: inherit;
+       
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--primary-text);
@@ -86,9 +79,8 @@ color: var(--accent-text-color);
 }
 
 .header-tel-link { 
-    font-family: inherit;
+   
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--primary-text);
@@ -100,7 +92,7 @@ color: var(--accent-text-color);
 background: var(--accent-bgc);
 }
 .hero-title { 
-        font-family: inherit;
+       
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -111,7 +103,7 @@ background: var(--accent-bgc);
 }
 
 .hero-button {
-        font-family: inherit;
+       
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -148,66 +140,47 @@ cursor: pointer;
     margin: -1px;
 }
 
-.feature-item-title {
-        font-family: inherit;
-        font-weight: 700;
-        font-size: 14px;
+.feature-item-title { 
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--second-text-color);
 }
 
 .featute-text {
-         font-family: inherit;
-        font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--primary-text);
 }
 /* ------------WORK------------- */
 
-.work-title {
-         font-family: inherit;
-        font-weight: 700;
+.section-title{
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--second-text-color);
+        
 }
 /* -------------TEAM--------------- */
 .team { 
     background: var(--second-backgraund-color);
 }
 
-.team-title { 
-    font-family: inherit;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--second-text-color);
-}
+
 .team-item {
         background: var(--primary-background-color);
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1 2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
 }
 .team-item-title { 
-    font-family: inherit;
+  
     font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--second-text-color);
 }
 
-.team-text {
-         font-family: inherit;
-        font-weight: 400;
+  .team-text {
         font-size: 16px;
         line-height: 1.8;
         text-align: center;
@@ -243,15 +216,12 @@ cursor: pointer;
     text-decoration: none;
 }
 .gallery-list .title {
-    font-family: inherit;
-        font-weight: 700;
         font-size: 18px;
         line-height: 36px;
         letter-spacing: 0.06em;
         color: var(--second-text-color);
 }
  .gallery-list p {
-        font-family: inherit;
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
@@ -275,6 +245,7 @@ cursor: pointer;
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--primary-background-color);
+    
 }
 
 
@@ -288,28 +259,20 @@ cursor: pointer;
     
 
 .footer-item-link {
-        font-family: inherit;
-        font-size: 14px;
+       
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--primary-background-color);
 }
-
-.footer-mail-link { 
-    font-family: inherit;
-        font-size: 14px;
+  
+.footer-mail-link,
+.footer-tel-link
+ { 
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--link-color);
 }
 
-.footer-tel-link {
-        font-family: inherit;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--link-color);
-}
 .footer-tel-link:hover,
 .footer-tel-link:focus {
     color: var(--accent-text-color);}
@@ -318,7 +281,8 @@ cursor: pointer;
 .footer-mail-link:focus {
     color: var(--accent-text-color);
 }
-.footer-item-link:hover,
-.footer-item-link:focus {
-    color: var(--accent-text-color);
+.adress-title {
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--primary-background-color)
 }
