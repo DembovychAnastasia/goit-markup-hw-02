@@ -141,6 +141,7 @@ cursor: pointer;
 }
 
 .feature-item-title { 
+        font-size: inherit;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
